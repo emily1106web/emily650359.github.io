@@ -3625,7 +3625,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: #ff9607;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3795,7 +3795,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
+  color:#bd5d38;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -8128,7 +8128,11 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: sandybrown !important;
+  background-image: url(../assets/img/背景圖片.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .bg-secondary {

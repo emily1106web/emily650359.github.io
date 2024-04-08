@@ -1,7 +1,7 @@
 *{
     letter-spacing: 0.8px;
     line-height: 1.5em;
-}
+    
 p.redred{
    color:rgb(82, 136, 189);
    font-size: 40px;
@@ -31,3 +31,4 @@ body{
     background-color: blue;
     color: white;
 }
+
