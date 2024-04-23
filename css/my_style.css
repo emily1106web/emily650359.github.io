@@ -27,12 +27,15 @@ body{
     font-family: 'Noto Serif TC',sans-serif;
 }
 
-.expedu_icon{
-    color: blue;
-}
 
 .expedu_icon{
-    background-color: #ffc107;
+    background-color: #f3d477;
     color: #dc5535;
+    border-radius: 10px;
+   
 }
 
+.yellow{
+
+    color: rgb(245, 182, 64)
+}
