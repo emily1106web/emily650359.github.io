@@ -32,3 +32,28 @@ body{
     color: white;
 }
 
+.nav-link{
+    color: #ff9607;
+}
+
+.navbar-nav .nav-link.active {
+    color: #bd5d38;
+}
+
+a {
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: sandybrown !important;
+    background-image: url(../assets/img/背景圖片.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
