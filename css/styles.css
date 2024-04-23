@@ -8040,7 +8040,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #bd5d38, var(--bs-text-opacity) !important;
 }
 
 .text-secondary {

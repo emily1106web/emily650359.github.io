@@ -59,10 +59,30 @@ a {
 
 .text-primary {
     --bs-text-opacity: 1;
-    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+    color: #bd5d38, var(--bs-text-opacity) !important;
 }
 .yellow{
 
     color: rgb(245, 182, 64)
 
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--bs-nav-link-hover-color);
+}
+
+.social-icons .social-icon {
+    background-color: #ff9607;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    color: #bd5d38;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--bs-nav-link-hover-color);
 }
