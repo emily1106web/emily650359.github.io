@@ -13,22 +13,7 @@ p.lead{
     border: 5px solid rgba(255, 174, 0, 0.431);
     border-radius: 10px;
 }
-p.redred{
 
-   color:rgb(82, 136, 189);
-   font-size: 40px;
-   text-align: center;
-   text-indent: 2em;
-   background-color: rosybrown;
-   padding: 20px;
-   border: 10px solid rgb(255, 174, 0);
-   border-radius: 10px;
-   margin: 50% auto；
-}
-
-.blueblue{
-    color:rgb(140, 105, 70);
-}
 
 .green{
     color:rgb(196, 121, 45);
@@ -49,6 +34,11 @@ body{
 
 .nav-link{
     color: #ff9607;
+    
+}
+
+.nav-link:hover{
+    font-size: 125%;
 }
 
 .navbar-nav .nav-link.active {
