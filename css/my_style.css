@@ -2,6 +2,17 @@
     letter-spacing: 0.8px;
     line-height: 1.5em;
 }
+
+.container-fluid{
+    background-color: #a4360b1b;
+}
+
+p.lead{
+    background-color: rgba(188, 143, 143, 0.515);
+    padding: 5px;
+    border: 5px solid rgba(255, 174, 0, 0.431);
+    border-radius: 10px;
+}
 p.redred{
 
    color:rgb(82, 136, 189);
@@ -20,7 +31,7 @@ p.redred{
 }
 
 .green{
-    color:rgb(127, 183, 127);
+    color:rgb(196, 121, 45);
 }
 
 body{
@@ -29,7 +40,7 @@ body{
 
 
 .expedu_icon{
-    background-color: #f3d477;
+    background-color: #efb841a8;
     color: #dc5535;
     border-radius: 10px;
    
@@ -63,7 +74,7 @@ a {
 }
 .yellow{
 
-    color: rgb(245, 182, 64)
+    color: rgb(228, 163, 44)
 
 }
 
@@ -86,3 +97,4 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 .nav-link:hover, .nav-link:focus {
     color: var(--bs-nav-link-hover-color);
 }
+
