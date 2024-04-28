@@ -53,7 +53,7 @@ a {
 .bg-primary {
     --bs-bg-opacity: 1;
     background-color: sandybrown !important;
-    background-image: url(../assets/img/背景圖片.jpg);
+    background-image: url(../assets/img/sand.jpg);
     background-repeat: repeat;
     background-size: cover;
 }
